@@ -1,7 +1,17 @@
-fetch('https://my.api.mockaroo.com/ewd.json?key=364d7740')
+arr1 = [];
+arr2 = [];
+
+fetch('https://my.api.mockaroo.com/ewd.json?key=a57b9890')
   .then(response => response.json())
   .then(data => {
-    console.log(data[0]);
+    
+    console.log(data[0].month);
+    for(var i=5;i<=50;i++){
+      arr2.push("month");
+      arr2.push(data[i].month);
+      arr1.push(arr2)
+    }
+    console.log(data);
 
     
   });
