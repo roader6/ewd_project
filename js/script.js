@@ -1,16 +1,19 @@
-var arr1 = [];
-var arr2 = [];
+var arr = ["Miesiąc",0,0,0,0,0,0,0,0,0,0,0,0,0];
 
 fetch('https://my.api.mockaroo.com/ewd.json?key=a57b9890')
   .then(response => response.json())
   .then(data => {
     
-    console.log(data[0].month);
-    arr2.push("month");
+    //console.log(data[0].month);
     for(var i=0;i<=99;i++){
-      arr2.push(data[i].month);
-      arr1.push(arr2)
+      for(var j=1;j<=12;j++){
+        if(data[i].month == j){
+          arr[j+1] = arr[j+1]+1;
+        }
+      }
     };
+
+    console.log(arr);
 
     
     var chart = bb.generate({
@@ -18,8 +21,8 @@ fetch('https://my.api.mockaroo.com/ewd.json?key=a57b9890')
       data: {
           type: "bar",
           columns: [
-              arr2,
-              ["data2", 130, 100, 140, 35, 110, 50]
+              arr,
+              //["data2", 130, 100, 140, 35, 110, 50]
           ]
       }
   });
