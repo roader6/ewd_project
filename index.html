@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="js/billboard.js"></script>
+    <link rel="stylesheet" href="css/billboard.css">
 </head>
 <body>
 
 
+    <div id="chart"></div>
+
     <script src="script.js"></script>
+
+    <script>
+    var chart = bb.generate({
+        bindto: "#chart",
+        data: {
+            type: "bar",
+            columns: [
+                ["data1", 30, 200, 100, 170, 150, 250],
+                ["data2", 130, 100, 140, 35, 110, 50]
+            ]
+        }
+    });
+    </script>
+
 </body>
 </html>
