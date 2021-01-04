@@ -10,7 +10,8 @@
 /*-- Chart --*/
 .bb svg {
   font: 10px sans-serif;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
 .bb path, .bb line {
   fill: none;
