@@ -18,7 +18,7 @@ header {
     background-image: url('../img/bg1.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: c;
     background-size: cover;
     font-size: 30px;
     color:white;
@@ -35,7 +35,7 @@ main {
 }
 
 section {
-    margin: 100px 100px;
+    margin: 100px 150px;
 }
 
 /* Footer  */
@@ -44,4 +44,12 @@ footer {
     width: 100vw;
     height: 100px;
     background-color: black;
+    color:white;
+    text-align: center;
+}
+
+footer p {
+    position: relative;
+    top: 50%;
+    font-size: 18px;
 }
