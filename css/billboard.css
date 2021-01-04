@@ -8,6 +8,7 @@
  * @version 2.1.4
  */
 /*-- Chart --*/
+
 .bb svg {
   font: 10px sans-serif;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -96,7 +97,7 @@
 
 /*-- Region --*/
 .bb-region {
-  fill: steelblue;
+  fill: rgb(35, 156, 255);
   fill-opacity: .1; }
 
 /*-- Zoom region --*/
