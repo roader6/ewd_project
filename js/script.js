@@ -1,6 +1,6 @@
-var arr = ["Miesiąc",0,0,0,0,0,0,0,0,0,0,0,0,0]; //chart1
+var arr = ["Ilość sprzedanych telefonów w danym miesiącu",0,0,0,0,0,0,0,0,0,0,0,0,0]; //chart1
 var arr1 = ["Średnia ocena telefonu w danym miesiącu",0,0,0,0,0,0,0,0,0,0,0,0,0]; ////chart2
-var arr2 = ["Wartość sprzedaży",0,0,0,0,0,0,0,0,0,0,0,0,0]; ////chart3
+var arr2 = ["Wartość sprzedaży w danym miesiącu",0,0,0,0,0,0,0,0,0,0,0,0,0]; ////chart3
 
 fetch('https://my.api.mockaroo.com/ewd.json?key=b68b4930')
   .then(response => response.json())
