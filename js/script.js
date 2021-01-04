@@ -2,7 +2,7 @@ var arr = ["Ilość sprzedanych telefonów w danym miesiącu",0,0,0,0,0,0,0,0,0,
 var arr1 = ["Średnia ocena telefonu w danym miesiącu",0,0,0,0,0,0,0,0,0,0,0,0,0]; ////chart2
 var arr2 = ["Wartość sprzedaży w danym miesiącu",0,0,0,0,0,0,0,0,0,0,0,0,0]; ////chart3
 
-fetch('https://my.api.mockaroo.com/ewd.json?key=b68b4930')
+fetch('https://my.api.mockaroo.com/ewd.json?key=2a8ff1a0')
   .then(response => response.json())
   .then(data => {
     //100 rows indexed from 0 to 99
