@@ -20,9 +20,6 @@ fetch('https://my.api.mockaroo.com/ewd.json?key=b68b4930')
       arr2[j] = arr[j]*1100; //chart3
     }
 
-    //console.log(arr);
-    //console.log(arr1);
-    //console.log(arr2);
     
     var chart = bb.generate({ //chart1
       bindto: "#chart",
