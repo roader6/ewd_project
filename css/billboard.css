@@ -10,7 +10,7 @@
 /*-- Chart --*/
 
 .bb svg {
-  font: 10px sans-serif;
+  font: 15px sans-serif;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -39,7 +39,7 @@
 
 .bb-chart-arc rect {
   stroke: #fff;
-  stroke-width: 1; }
+  stroke-width: 3; }
 
 .bb-chart-arc text {
   fill: #fff;
