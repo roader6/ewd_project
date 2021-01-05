@@ -16,9 +16,8 @@ header {
     width: 100vw;
     height: 300px;
     background-image: url('../img/bg1.jpg');
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: c;
+    background-position: center;
     background-size: cover;
     font-size: 30px;
     color:white;
@@ -32,10 +31,38 @@ header {
 
 main {
     margin-top: 100px;
+    align-content: center;
 }
 
 section {
     margin: 100px 100px;
+    align-content: center;
+}
+
+section h3 {
+    margin: 30px 0px 10px 0px; 
+    font-size: 36px;
+    text-align: center;
+}
+
+section p {
+    font-size: 24px;
+}
+
+.img {
+    position: absolute;
+    left: 0%;
+    width: 100vw;
+    height: 300px;
+    background-image: url('/img/data_img.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.charts {
+    margin-top: 400px;
 }
 
 #chart, #chart2, #chart3 {
@@ -51,7 +78,7 @@ section {
 
 footer {
     width: 100vw;
-    height: 100px;
+    height: 80px;
     background-color: black;
     color:white;
     text-align: center;
