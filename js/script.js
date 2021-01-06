@@ -16,10 +16,9 @@ fetch('https://my.api.mockaroo.com/ewd.json?key=2a8ff1a0')
     };
 
     for(j=2;j<=13;j++){
-      arr1[j] = arr1[j]/arr[j]; //chart2
+      arr1[j] = (arr1[j]/arr[j]).toFixed(1); //chart2
       arr2[j] = arr[j]*1100; //chart3
     }
-
     
     var chart = bb.generate({ //chart1
       bindto: "#chart",
@@ -31,6 +30,7 @@ fetch('https://my.api.mockaroo.com/ewd.json?key=2a8ff1a0')
 
     var chart_2 = bb.generate({ //chart2
       bindto: "#chart2",
+      
       data: {
         type: "area",
         columns: [arr1]

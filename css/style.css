@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 254, 249);
 }
 
 /* Header */
@@ -33,19 +34,32 @@ main {
     align-content: center;
 }
 
+img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 50vw;
+    transition: .3s;
+}
+
+img:hover {
+    width: 90vw;
+}
+
 section {
     margin: 100px 100px;
     align-content: center;
 }
 
 section h3 {
-    margin: 30px 0px 10px 0px; 
+    margin: 30px 0px 20px 0px; 
     font-size: 36px;
     text-align: center;
 }
 
 section p {
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .img {
@@ -62,6 +76,12 @@ section p {
 
 .charts {
     margin-top: 400px;
+}
+
+.charts p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 #chart, #chart2, #chart3 {
